@@ -10,7 +10,13 @@ import './App.css';
 
 class App extends Component {
   render() {
-    return
+    return (
+        <Router history = {browserHistory}>
+            <Route path = '/home' component = {Home} />
+            <Route path = '/graph' component = {Graph} />
+            <Route path = 'login' component = {Login} />
+        </Router>
+    )
   }
 }
 

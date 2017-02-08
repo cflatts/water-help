@@ -2,7 +2,11 @@ import React, { Component } from 'react'
 
 class Graph extends Component {
     render() {
-        return
+        return (
+            <div>
+                Graph
+            </div>
+        )
     }
 }
 
