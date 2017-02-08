@@ -8,8 +8,9 @@ class Navigation extends Component {
                 <NavLink to = '/'>Home</NavLink>
                 <NavLink to = '/graph'>Water Goals</NavLink>
                 <NavLink to = '/login'>Login</NavLink>
+
             </div>
-            )
+        )
     }
 }
 

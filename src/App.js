@@ -4,7 +4,6 @@ import Home from './components/home'
 import Graph from './components/graph'
 import Login from './components/login'
 import Navigation from './components/navigation'
-import logo from './logo.svg';
 import './App.css';
 
 
